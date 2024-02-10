@@ -7,7 +7,8 @@ export default function Home() {
   if(session) {
     return <>
      <header>
-  <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+     <div className="mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8 max-md:flex-col">
+
     <div className="sm:flex sm:items-center sm:justify-between">
       <div className="text-center sm:text-left">
         <h1 className="text-3xl font-bold text-gray-900 sm:text-3xl">Welcome Back , <span className="text-green-700">{session.user.name}!</span></h1>
