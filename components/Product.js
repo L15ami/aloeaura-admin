@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Spinner from "./spinner";
 import { ReactSortable } from "react-sortablejs";
 import toast from "react-hot-toast";
+import Image from "next/image";
 
 export default function Product({
   _id,
@@ -253,7 +254,7 @@ export default function Product({
               >
                 {images?.map((link, index) => (
                   <div key={link} className="relative group">
-                    <img
+                    <Image
                       src={link}
                       alt="image"
                       className="object-cover h-32 w-44 rounded-md border p-2 cursor-pointer transition-transform transform-gpu group-hover:scale-105"
