@@ -45,7 +45,7 @@ export default function Product() {
                 All Products
               </h1>
               <p className="mt-1.5 text-md text-gray-500">
-                Let&apos;s create a new product! 🎉
+                Lets create a new product! 🎉
               </p>
             </div>
 
